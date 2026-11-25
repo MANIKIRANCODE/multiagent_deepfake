@@ -1,0 +1,47 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Python environments
+*.egg-info/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+
+# Logs
+*.log
+saved_logs/
+
+# Datasets and temporary files
+datasets/
+temp/
+tmp/
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated output
+outputs/
+*.mp4
+*.avi
